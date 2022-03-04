@@ -9,7 +9,7 @@ function PirateList(props) {
           key={pirate.id}
           id={pirate.id}
           image={pirate.image}
-          title={pirate.title}
+          name={pirate.name}
           address={pirate.address}
         />
       ))}
